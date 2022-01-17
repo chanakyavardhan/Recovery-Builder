@@ -3,9 +3,9 @@ env:
     FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
 
     # Device
-    FOX_BRANCH: fox_10.0
-    DT_LINK: https://github.com/OrangeFoxRecovery/device_samsung_m20lte.git -b fox_10.0
-    DEVICE: m20lte
+    FOX_BRANCH: fox_11.0
+    DT_LINK: https://github.com/OrangeFoxRecovery/device_samsung_f62.git
+    DEVICE: f62
     OEM: samsung
     TARGET: recoveryimage
 
