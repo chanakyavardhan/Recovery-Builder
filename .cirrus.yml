@@ -1,7 +1,7 @@
 env:
     # OrangeFox Sync Repository
     #FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
-    MANIFEST: git://gitlab.com/OrangeFox/Manifest.git
+    MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git
     MANIFEST_BRANCH: twrp-11
 
     # Device
