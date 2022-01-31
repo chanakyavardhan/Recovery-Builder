@@ -1,7 +1,7 @@
 env:
     # OrangeFox Sync Repository
     #FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
-    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
+    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git
     MANIFEST_BRANCH: twrp-11
 
     # Device
