@@ -45,8 +45,11 @@ export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
 
 # lunch the target
-lunch ${LUNCH_COMBO} || { echo "ERROR: Failed to lunch the target!" && exit 1; }
-
+if [ "$FOX_BRANCH" = "fox_11.0" ]; then
+    lunch twrp_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
+else
+    lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
+fi
 
 # Build the Code
 if [ -z "$J_VAL" ]; then
