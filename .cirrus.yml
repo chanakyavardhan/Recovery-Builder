@@ -13,6 +13,7 @@ env:
 
     DT_PATH: device/$OEM/$DEVICE
     OUTPUT: recovery.img
+    LUNCH_COMBO: twrp_f62-eng
 
     # Extra Command
     EXTRA_CMD: export ALLOW_MISSING_DEPENDENCIES=true
