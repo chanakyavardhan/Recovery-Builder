@@ -1,12 +1,12 @@
 env:
     # OrangeFox Sync Repository
     #FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
-    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
+    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
     MANIFEST_BRANCH: twrp-11
 
     # Device
     #FOX_BRANCH: fox_11
-    DT_LINK: https://github.com/chanakyavardhan/device_samsung_f62
+    DT_LINK: https://github.com/ianmacd/twrp_d2s
     DEVICE: f62
     OEM: samsung 
     TARGET: recoveryimage
