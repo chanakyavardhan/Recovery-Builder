@@ -6,7 +6,6 @@ env:
 
     # Device
     #FOX_BRANCH: fox_11
-    FOX_BRANCH: fox_11.0
     DT_LINK: https://github.com/chanakyavardhan/device_samsung_f62
     DEVICE: f62
     OEM: samsung 
