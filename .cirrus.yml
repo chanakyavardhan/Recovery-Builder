@@ -6,7 +6,7 @@ env:
 
     # Device
     #FOX_BRANCH: fox_11
-    DT_LINK: https://github.com/ianmacd/twrp_d2s
+    DT_LINK: https://github.com/chanakyavardhan/device_samsung_f62
     DEVICE: f62
     OEM: samsung 
     TARGET: recoveryimage
