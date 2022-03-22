@@ -1,19 +1,18 @@
 env:
     # OrangeFox Sync Repository
     #FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
-    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git 
-    MANIFEST_BRANCH: fox_11.0
+    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
+    MANIFEST_BRANCH: twrp-11
 
     # Device
     #FOX_BRANCH: fox_11
     DT_LINK: https://github.com/chanakyavardhan/device_samsung_f62
     DEVICE: f62
-    OEM: samsung
+    OEM: samsung 
     TARGET: recoveryimage
 
     DT_PATH: device/$OEM/$DEVICE
     OUTPUT: recovery.img
-    LUNCH_COMBO: twrp_f62-eng
 
     # Extra Command
     EXTRA_CMD: export ALLOW_MISSING_DEPENDENCIES=true
